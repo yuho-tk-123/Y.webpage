@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Y.webpage</title>
+        <meta name="description" content="Y.の個人ホームページ" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <!-- favicon/webclipicon -->
+        <link rel="icon" type="image/png" sizes="16x16"  href="img/icon1.jpg">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="apple-touch-icon" href="img/icon1.jpg">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- ogp -->
+        <meta property="og:site_name" content="Y.webpage" />
+        <meta property="og:url" content="URL" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Y.webpage" />
+        <meta property="og:description" content="Y.個人ホームページのトップページ" />
+        <meta property="og:image" content="URL" />
+        <meta property="og:locale" content="ja_JP" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@y_tellu52_123" />
+        <meta name="twitter:description" content="Y.個人ホームページのトップページ" />
+        <meta name="twitter:image:src" content="URL" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/mainResponcive.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+    </head>
+
+    <body>
+        <header>
+            <div class="headerContainer">
+                <img src="img/icon1.jpg" class="headericon">
+                <nav class="tab">
+                    <ul class="tabUl">
+                        <li class="tabLi"><a href="home.html">Top</a></li>
+                        <li class="tabLi"><a href="aboutMe.html">About me</a></li>
+                        <li class="tabLi"><a href="gallery.html">Gallery</a></li>
+                        <li class="tabLi"><a href="photograph.html">Photograph</a></li>
+                        <li class="tabLi"><a href="contact.html">Contact</a></li>
+                        <li class="tabLi"><a href="qanda.html">Q & A</a></li>
+                    </ul>
+                    <!--ハンバーガー-->
+                    <div class="burger"></div>
+                    <div class="burgerMenu">
+                        <ul class="burgerUl">
+                            <li class="burgerLi"><a href="home.html">Top</a></li>
+                            <li class="burgerLi"><a href="aboutMe.html">About me</a></li>
+                            <li class="burgerLi"><a href="gallery.html">Gallery</a></li>
+                            <li class="burgerLi"><a href="photograph.html">Photograph</a></li>
+                            <li class="burgerLi"><a href="contact.html">Contact</a></li>
+                            <li class="burgerLi"><a href="qanda.html">Q & A</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <div class="swiperContainer">
+            <!-- Slider -->
+            <div class="swiper">
+                <!-- スライドwrapper -->
+                <div class="swiper-wrapper">
+                    <!-- 各スライド -->
+                    <img src="img/cat.jpg" class="swiper-slide">
+                    <img src="img/georgia.jpg" class="swiper-slide">
+                    <img src="img/haruSagashi.jpg" class="swiper-slide">
+                    <img src="img/rockHeart.jpg" class="swiper-slide">
+                    <img src="img/nightRunnners.jpg" class="swiper-slide">
+                    <p>とあるフィルムカメラ好きな社会人の個人サイト</p>
+                </div>
+                <!-- ページネーション -->
+                <div class="swiper-pagination"></div>
+                <!-- ナビボタン -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="menu">
+            <h1>はじめまして。Y.です。</h1>
+            <p>私のこと、少しだけ知ってください。</p>
+            <div class="menuBoxContainer">
+                 <div class="menuBox aboutMe">
+                    <img src="img/aboutMe.jpg" class="menuicon">
+                    <a href="aboutMe.html">About me</a>
+                    <p>はじめまして。Y.です。<br>私のこと、少しだけ知ってください。<br>自己紹介です。</p>
+                </div>
+                <div class="menuBox gallery">
+                    <img src="img/javaScript.jpg" class="menuicon">
+                    <a href="gallery.html">Gallery</a>
+                    <p>アプリケーションをいくつか作ってみました。</p>
+                </div>
+                <div class="menuBox photograph">
+                    <img src="img/monocro.jpg" class="menuicon">
+                    <a href="photograph.html">Photograph</a>
+                    <p>趣味で写真をやってます。<br>主にフィルムカメラで撮ります。<br>お時間ありましたら覗いてみてください。<br>そして、もしよろしければあなたのことも<br>撮らせていただけませんか？</p>
+                </div>
+                <div class="menuBox content">
+                    <img src="img/coffee.jpg" class="menuicon">
+                    <a href="contact.html">Contact</a>
+                    <p>アプリのこと、写真のこと、ご意見、ご質問<br>何なりとお申し付けください。<br>メール、Instagram、Twitterから受け付けています。</p>
+                </div>
+                <div class="menuBox qAndA">
+                    <img src="img/stainedGlass.jpg" class="menuicon">
+                    <a href="qanda.html">Q & A</a>
+                    <p>よくある質問とあんまりない質問をまとめました。</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a href="https://instagram.com/y._.tellu52_123?igshid=YmMyMTA2M2Y=" class="btn instagram">Instagram</a>
+            <a href="https://twitter.com/y_tellu52_123" class="btn twitter">Twitter</a>
+        </footer>
+
+        <!-- swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/swiperMain.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="js/burgerMain.js"></script>
+        
+    </body>
+</html>

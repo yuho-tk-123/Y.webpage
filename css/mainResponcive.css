@@ -1,0 +1,27 @@
+@media screen and (max-width:520px) {
+    /*header*/
+    .tabUl{
+        display:none;
+    }
+
+    
+    .burger{
+        display: block;
+    }
+	
+    /*swiper*/
+    .swiper{
+        /* swiperのサイズ調整 */
+        width: 80%;
+    }
+
+    /*menu*/
+    .menuBoxContainer{
+        display: block;
+    }
+
+    .menuBox{
+        width: 100%;
+    }
+ 
+}

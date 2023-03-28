@@ -1,0 +1,102 @@
+.contactTop{
+    padding-top:100px;
+    background-color: #f9ecd7;
+}
+
+.contactTopWrapper{
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.contactTopWrapper img{
+    width: 100%;
+}
+
+.contactTopWrapper h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+.contactTopWrapper p{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: white;
+}
+
+.contactSns{
+    padding: 50px 200px;
+    background-color: #f9ecd7;
+}
+
+.sns{
+    display: flex;
+}
+
+.snsLeft{
+    width: 50%;
+    position: relative;
+}
+
+.snsLeft img{
+    width: 100%;
+}
+
+.snsLeftBox{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+.snsRight{
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.snsRight img{
+    width: 20%;
+}
+
+#snsRightInstagram{
+    color: #ff6161;
+}
+
+#snsRightInstagramUrl{
+    display: inline-block;
+    color: #ff6161;
+    text-decoration: none;
+    border: #ff6161 solid 0.5px;
+    padding:10px 20px;
+    width: 60%;
+    transition: all 1s;
+}
+
+#snsRightInstagramUrl:hover{
+    background-color: #ff6161;
+    color: whitesmoke;
+    border: #ff6161 solid 0.5px;
+}
+
+#snsRighttwitter{
+    color:#55acee;
+}
+
+#snsRightTwitterUrl{
+    display: inline-block;
+    color: #55acee;
+    text-decoration: none;
+    border: #55acee solid 0.5px;
+    padding:10px 20px;
+    width: 60%;
+    transition: all 1s;
+}
+

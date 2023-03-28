@@ -1,0 +1,26 @@
+@media screen and (max-width:520px) {
+    
+    .contactTopWrapper{
+        width: 80%;
+        
+    }
+    
+    .contactSns{
+        padding: 50px;
+    }
+
+    .sns{
+        display: block;
+    }
+
+    .snsLeft{
+        width: 100%;
+    }
+
+    .snsRight{
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+ 
+}

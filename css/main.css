@@ -1,0 +1,227 @@
+/*header*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.headerContainer{
+    padding-left:50px;
+    padding-right:50px;
+    color:black;
+    background-color: whitesmoke;
+    height:80px;    
+    display: flex;
+}
+
+.headericon{
+    height:50px;
+    margin-right:20px;
+    margin-top: 15px;
+}
+
+header nav{
+    height: 80px;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.tabUl {
+    display: block;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.tabLi{
+    display:block;
+    line-height: 80px;
+    width: 80px;
+    text-align: center;
+    padding:0 10px 0 10px;
+}
+
+.tabLi a{
+    text-decoration: none;
+    display:block;
+    font-family: 'Amatic SC', cursive;
+    font-size:15px;
+    font-weight: bold;
+    transition: all 1s;
+    color:black;
+}
+
+.tabLi a:hover{
+    background-color: #ddd;
+}
+
+/*ハンバーガー*/
+.burger{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/burger.svg);
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 1s;
+    position: relative;
+    z-index: 10;
+    display: none;
+}
+
+.burger:hover{
+    background-color: #ddd;
+    
+}
+
+.burger.is-active{
+    background-image: url(../img/close.svg);
+}
+
+.burgerMenu{
+    color: black;
+    margin: auto;
+    width: 100vw;
+    background-color: rgb(245, 245, 245, 0.7);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 5;
+    display: none;
+    transition: all 1s;
+}
+
+.burgerMenu.is-active{
+    display: flex;
+}
+
+.burgerLi{
+    display:block;
+    line-height: 80px;
+    width: 80%;
+    text-align: center;
+    padding:0 10px 0 10px;
+    transition: all 1s;
+}
+
+.burgerLi:hover{
+    background-color: whitesmoke;
+}
+
+.burgerLi a{
+    text-decoration: none;
+    display:block;
+    font-family: 'Amatic SC', cursive;
+    font-size:15px;
+    font-weight: bold;
+    color:black;
+}
+
+.burgerUl{
+    display: block;
+    list-style: none;
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+
+/*body*/
+.swiperContainer{
+    padding-top:100px;
+    background-color: #f9ecd7;
+    width: 100%;
+}
+
+.swiper{
+    /* swiperのサイズ調整 */
+    width: 55%;
+}
+
+.swiper-wrapper{
+    position: relative;
+}
+
+.swiper-wrapper p{
+    position: absolute;
+    top: 20px;
+    left:20px;
+    color:white;
+    font-size:8px;
+}
+
+.menu{
+    padding:10px 50px 20px 50px;
+    text-align: center;
+    background-color: #f9ecd7;
+}
+
+.menuBoxContainer{
+    display: flex;
+}
+
+.menuBoxContainer img{
+    width:80%;
+}
+
+.menuBox{
+    width:20%;
+    padding:15px;
+}
+
+.menuBox a{
+    display:block;
+    color:black;
+}
+
+.menuBox p{
+    font-size:8px;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    width: auto;
+    height:80px;
+    background-color: whitesmoke;
+}
+
+.btn{
+    display: inline-block;
+    border-radius: 10px;
+    height:40px;
+    line-height: 40px;
+    padding:0 10px 0 10px;
+    margin:20px 1.5px 20px 1.5px;
+    color: white;
+    font-size:15px;
+    text-decoration: none;
+}
+
+.instagram{
+    background-color: whitesmoke;
+    color: #ff6161;
+    border: #ff6161 solid 0.5px;
+    transition: all 1s;
+}
+
+.instagram:hover{
+    background-color: #ff6161;
+    color: whitesmoke;
+    border: #ff6161 solid 0.5px;
+}
+
+.twitter{
+    background-color: whitesmoke;
+    color: #55acee;
+    border: #55acee solid 0.5px;
+    transition: all 1s;
+}
+
+.twitter:hover{
+    background-color: #55acee;
+    color: whitesmoke;
+    border: #55acee solid 0.5px;
+}
+
