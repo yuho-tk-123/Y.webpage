@@ -1,0 +1,45 @@
+.container{
+    width: auto;
+    background-color: #f9ecd7;
+    padding-bottom: 50px;
+}
+
+.explanation{
+    text-align: center;
+    padding:100px 0 50px 0;
+}
+  
+/*アコーディオン */
+#qaa-list {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.qaa-list-item {
+    margin:10px;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    cursor:pointer;
+    text-align: left;
+}
+  
+.qaa-list-item h3 {
+    font-weight: normal;
+}
+  
+.qaa-list-item span {
+    position:absolute;
+    top:0;
+    right:5px;
+    color:#ccc;
+}
+  
+.answer {
+    display: none;
+    padding: 5px 0px;
+    margin-bottom: 15px;
+}
+  
+ 
