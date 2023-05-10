@@ -1,0 +1,66 @@
+.gallery{
+    width: auto;
+    background-color: #f9ecd7;
+}
+
+.explanation{
+    text-align: center;
+    padding:100px 0 0 0;
+}
+
+.work{
+    width: auto;
+    display: flex;
+    padding:75px;
+}
+
+.app{
+    width: 50%;
+    text-align: center;
+}
+
+.app img{
+    width: 50%;
+}
+
+.caption{
+    width: 50%;
+    margin: auto;
+}
+
+.contactApp{
+    background-color: #f9ecd7;
+    padding-bottom: 75px;
+}
+
+.snsRight{
+    width: 50%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: white;
+    margin: auto;
+}
+
+.snsRight img{
+    width: 20%;
+}
+
+#snsRightGithub{
+    color: #563D7C;
+}
+
+#snsRightGithubUrl{
+    display: inline-block;
+    color: #563D7C;
+    text-decoration: none;
+    border: #563D7C solid 0.5px;
+    padding:10px 20px;
+    width: 60%;
+    transition: all 1s;
+}
+
+#snsRightGithubUrl:hover{
+    background-color: #563D7C;
+    color: whitesmoke;
+    border: #563D7C solid 0.5px;
+}

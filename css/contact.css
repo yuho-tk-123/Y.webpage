@@ -100,3 +100,28 @@
     transition: all 1s;
 }
 
+#snsRightTwitterUrl:hover{
+    background-color: #55acee;
+    color: whitesmoke;
+    border: #55acee solid 0.5px;
+}
+
+#snsRightGithub{
+    color:#563D7C;
+}
+
+#snsRightGithubUrl{
+    display: inline-block;
+    color: #563D7C;
+    text-decoration: none;
+    border: #563D7C solid 0.5px;
+    padding:10px 20px;
+    width: 60%;
+    transition: all 1s;
+}
+
+#snsRightGithubUrl:hover{
+    background-color: #563D7C;
+    color: whitesmoke;
+    border: #563D7C solid 0.5px;
+}

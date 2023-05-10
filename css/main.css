@@ -225,3 +225,15 @@ footer{
     border: #55acee solid 0.5px;
 }
 
+.github{
+    background-color: whitesmoke;
+    color: #563D7C;
+    border: #563D7C solid 0.5px;
+    transition: all 1s;
+}
+
+.github:hover{
+    background-color: #563D7C;
+    color: whitesmoke;
+    border: #563D7C solid 0.5px;
+}

@@ -1,0 +1,24 @@
+@media screen and (max-width:520px) {
+    .explanation{
+        padding:50px;
+    }
+
+    .work{
+        display: block;
+    }
+
+    .app{
+        width: 100%;
+    }
+
+    .app img{
+        width: 100%;
+    }
+
+    .caption{
+        width: 100%;
+        margin: auto;
+    }
+
+    
+}
